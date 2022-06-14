@@ -10,7 +10,6 @@ data = {
     'kw': query
 }
 
-
 res = requests.post(url, headers=headers, data=data)
 print(res.json())
 res.close()
