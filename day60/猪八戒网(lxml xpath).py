@@ -15,3 +15,4 @@ for div in divs:
     work_age = div.xpath('./div//div[@class="more-box"]/div[2]/text()')[0]
     degree = div.xpath('./div//div[@class="more-box"]/div[4]/text()')[0]
     print(title, location, salary, work_age, degree)
+
