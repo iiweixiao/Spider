@@ -8,6 +8,7 @@ def func(name):
     for i in range(1000):
         print('func', i, name)
 
+
 # Process和Thread关键词互掉即可切换多进程和多线程
 if __name__ == '__main__':
     t1 = Thread(target=func, args=('Jay',))
