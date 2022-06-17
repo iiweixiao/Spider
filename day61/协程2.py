@@ -24,6 +24,7 @@ if __name__ == '__main__':
         func2(),
         func3(),
     ]
-    lop = asyncio.get_event_loop()
-    lop.run_until_complete(asyncio.wait(tasks))
+    loop = asyncio.get_event_loop()
+    loop.run_until_complete(asyncio.wait(tasks))
     print(time.time() - start)
+    loop.close()
