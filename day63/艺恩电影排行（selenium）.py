@@ -21,6 +21,6 @@ with open('艺恩电影排行.txt', 'w') as f:
         f.writelines('\n==============\n')
         print('完成一页', i)
 
-# 打印时时渲染源码
+    # 打印时时渲染源码
 time.sleep(3)
 print(web.page_source)
