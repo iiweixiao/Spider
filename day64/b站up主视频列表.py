@@ -3,10 +3,10 @@ from datetime import datetime
 
 # mid为up主id号
 mid = '927587'  # 木鱼水心id
-# mid = '550438936'
+mid = '550438936'
 # mid = '37974444'
 search = '水浒'  # 搜索内容或主题，空值就搜索所有内容
-# search = ''  # 搜索内容或主题，空值就搜索所有内容
+search = ''  # 搜索内容或主题，空值就搜索所有内容
 
 
 flag = True
