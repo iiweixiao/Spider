@@ -4,6 +4,7 @@ from utils import send_email
 
 # key_words = ['一建', '一级建造师']
 key_words = ['电动车', '新能源']
+info = '资讯_from搜狗搜索'
 content = ''
 index = 1
 
@@ -30,4 +31,6 @@ for key_word in key_words:
         content += f"{index} <a href='{href}'>{title}</a> <br>{source_from} {created} <br> <br>"
         index += 1
 
-send_email.send_email('weixiaot2021@icloud.com', content, '电动车资讯_from搜狗搜索')
+# send_email.send_email('weixiaot2021@icloud.com', content, info)
+# send_email.send_email('gaoming595@sina.com', content, info)
+send_email.send_email('iiweixiao@yeah.net', content, info)

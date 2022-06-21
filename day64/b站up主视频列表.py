@@ -6,8 +6,8 @@ from day65 import 发邮件
 mid = '927587'  # 木鱼水心id
 # mid = '550438936'
 # mid = '37974444'
-search = '水浒'  # 搜索内容或主题，空值就搜索所有内容
-# search = ''  # 搜索内容或主题，空值就搜索所有内容
+# search = '水浒'  # 搜索内容或主题，空值就搜索所有内容
+search = ''  # 搜索内容或主题，空值就搜索所有内容
 
 flag = True
 pn = 1  # 第一页
@@ -30,4 +30,4 @@ while flag:
                 index += 1
         pn += 1
 # 发邮件.send_email("813703110@qq.com", content, 'up主视频列表')
-发邮件.send_email("weixiaot2021@icloud.com", content, 'up主视频列表')
+# 发邮件.send_email("weixiaot2021@icloud.com", content, 'up主视频列表')
