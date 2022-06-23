@@ -11,6 +11,7 @@ import requests
 # 4. 列出分p标题和播放地址
 video_url = 'https://www.bilibili.com/video/BV1Lq4y127B2?vd_source=e7ed50c0d7d2387c7423c27fa17f7af5'
 video_url = 'https://www.bilibili.com/video/BV1kY4y1z7RX?spm_id_from=333.999.0.0&vd_source=e7ed50c0d7d2387c7423c27fa17f7af5'
+video_url = 'https://www.bilibili.com/video/BV1GW411t7xL'
 bvid = ''
 if '?' in video_url:
     bvid = video_url.split('?')[0].rsplit('/', 1)[1]
