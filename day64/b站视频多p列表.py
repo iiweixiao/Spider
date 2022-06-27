@@ -10,7 +10,7 @@ import requests
 # 3. 列出up主所有视频的地址，如果bvid在地址中，则取到该视频总时长
 # 4. 列出分p标题和播放地址
 video_url = 'https://www.bilibili.com/video/BV1Lq4y127B2?vd_source=e7ed50c0d7d2387c7423c27fa17f7af5'
-video_url = 'https://www.bilibili.com/video/BV1kY4y1z7RX?spm_id_from=333.999.0.0&vd_source=e7ed50c0d7d2387c7423c27fa17f7af5'
+video_url = 'https://www.bilibili.com/video/BV1U94y1U7ZM?p=8&spm_id_from=pageDriver&vd_source=e7ed50c0d7d2387c7423c27fa17f7af5'
 bvid = ''
 if '?' in video_url:
     bvid = video_url.split('?')[0].rsplit('/', 1)[1]
