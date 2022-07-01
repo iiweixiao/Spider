@@ -6,9 +6,10 @@ import json
 url = 'https://www.anyknew.com/api/v1/sites/weibo'
 
 # 知乎热搜
-# url = 'https://www.anyknew.com/api/v1/sites/zhihu'
+url = 'https://www.anyknew.com/api/v1/sites/zhihu'
 
 resp = requests.get(url)
+print(resp.url)
 json_data = resp.json()
 
 
